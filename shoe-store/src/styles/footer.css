@@ -1,0 +1,46 @@
+.Footer {
+  background-color: #111;
+  height: 100%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.Footer .Footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+.Footer .Footer-container a {
+  color: #333;
+  text-decoration: none;
+}
+
+.Footer .Footer-container .logo {
+  width: 75px;
+}
+
+.Footer .Footer-container img {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+.Footer .Footer-container img:hover {
+  opacity: 0.6;
+}
+
+.Footer .Footer-container:hover {
+  opacity: 0.6;
+}
+/*# sourceMappingURL=footer.css.map */

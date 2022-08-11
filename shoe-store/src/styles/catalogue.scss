@@ -1,0 +1,15 @@
+.Card {
+  display: flex;
+  justify-content: center;
+  .Card-container {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.Card-image {
+  height: 15rem;
+  object-fit: cover;
+}

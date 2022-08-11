@@ -1,0 +1,37 @@
+.Footer {
+  background-color: #111;
+  height: 100%;
+  margin-top: 20px;
+  padding: 5px;
+
+  .Footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: opacity 0.25s;
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .logo {
+      width: 75px;
+    }
+
+    img {
+      width: 50px;
+      height: auto;
+      cursor: pointer;
+      transition: opacity 0.25s;
+    }
+
+    img:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .Footer-container:hover {
+    opacity: 0.6;
+  }
+}

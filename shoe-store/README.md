@@ -1,0 +1,1 @@
+its a template code for a shoe store website. so not very much functionality unless you need it.

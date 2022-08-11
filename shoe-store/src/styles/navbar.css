@@ -1,0 +1,52 @@
+.Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Navbar .Navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  background-color: #111;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 20px;
+  border-top-right-radius: 64px;
+  border-bottom-right-radius: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+}
+
+.Navbar .Navbar-container img {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+.Navbar .Navbar-container img:hover {
+  opacity: 0.6;
+}
+
+.Navbar .Navbar-container a {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.Navbar .Navbar-container a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 837px) {
+  .Navbar-container {
+    position: absolute;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
